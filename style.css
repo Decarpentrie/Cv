@@ -1,9 +1,11 @@
 header {
+	
 list-style: none;
+
 }
 
 article{		
-text-align: center;
+	text-align: center;
 }
 
 img {
@@ -17,10 +19,10 @@ ul li{
 }
 
 body {
-color:black;
-background-color:white;
-background-image:url();
-background-opacity:0.75;
+	color:black;
+	background-color:white;
+	background-image:url();
+	background-opacity:0.75;
 }
 
 
