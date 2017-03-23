@@ -1,61 +1,80 @@
-<!DOCTYPE htlm>
-<htlm>
+<!DOCTYPE html>
+	<html>
+		<head>
 
-	
-	<head>
-	
-	<meta charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>CV</title>
-	
-	</head>
-
-<body> 
-	
-	<header>
+			<meta charset="utf-8">
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+			<link rel="stylesheet" type="text/css" href="teststyle.css">
+		</head>		
 		
-		<img src="https://unsplash.it/g/200/300"  alt="route">
-		
-		<ul>
-			<li>DECARPENTRIE</li>
-			<li>Elodie</li>
-			<li>elodie.decarpentrie32@gmail.com</li>
-		</ul>
+		<body>
+<header>
 
-	</header>
+        				<img src="https://unsplash.it/g/200/300"  alt="route"/>
 
-	<section>
+						<article>
+							<ul>
+								<li>DECARPENTRIE</li>
+								<li>Elodie</li>
+								<li>elodie.decarpentrie32@gmail.com</li>
+							</ul>
+						</article>
+  					
+  			
+</header>
 
-	<article>
-		<h2>Experience</h2>
-<ul>
-	<li> Assitante (ATSM)</li>
-	<li>Agent de service hospitalier(ASH)</li>
-	<li>Aide-soigante (AS)</li>
-	<li>Animateur</li>
-
-
-</ul>
-	</article>
-	<article>
-	
-	<h2>Diplome</h2>
-		<ul>
-		<li>Brevet des colège</li>
-		<li>BEPA service aux personnes</li>
-		<li>BAC PRO service aux personnes et aux territoire</li>
-			
-		</ul>
-	</article>
-	<article>
-		<h2>Divers</h2>
-		<ul>
-			<li>gestion d'un groupe événementiel</li>
-			<li>création d'un site amateur pour une association sportif <a href="http://judoclubdecondom.wixsite.com/judoclubdecondom"/> (judo club de Condom)
-			</a> </li>
+			<ul class="nav nav-tabs" id="myTab">
+    			<li class="active"><a data-toggle="tab" href="#Diplome">Diplome</a></li>
+    			<li><a data-toggle="tab" href="#Experience">Experience</a></li>
+    			<li><a data-toggle="tab" href="#Divers">Divers</a></li>
+    
 			</ul>
-	</article>
-</section>
 
-</body>
+			<div class="tab-content" id="myTabContent">
+
+    		<div id="Diplome" class="tab-pane fade active in">
+        		<p><br>
+        			<ul>
+						<li>Brevet des colège</li>
+						<li>BEPA service aux personnes</li>
+						<li>BAC PRO service aux personnes et aux territoire</li>
+			
+					</ul>
+				</p>
+   			 </div>
+    		
+    		<div id="Experience" class="tab-pane fade">
+        		<p><br>
+        			<ul>
+						<li> Assitante (ATSM)</li>
+						<li>Agent de service hospitalier(ASH)</li>
+						<li>Aide-soigante (AS)</li>
+						<li>Animateur</li>
+					</ul>
+				</p>
+    		</div>
+   
+      	
+
+    		<div id="Divers" class="tab-pane fade">
+        		<p><br>
+        			<ul>
+					<li>gestion d'un groupe événementiel</li>
+					<li>création d'un site amateur pour une association sportif <a href="http://judoclubdecondom.wixsite.com/judoclubdecondom"/> (judo club de Condom)
+					</a> </li>
+					</ul>
+				</p>
+    		</div>
+		</div>
+
+
+
+
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+			<script src="node_modules/bootstrap/dist/js/bootstrap.min.js" real></script>
+
+		</body>
 </html>
